@@ -11,7 +11,7 @@ from telegram.ext import (
 # SOZLAMALAR
 # ========================
 import os
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8687297980:AAE3yCz4K_5Xwt6NOfMXD68uGjUiGqrj0Yc")
 M3U_URL = "http://f6f5887552dc.mylistbest.net/playlists/uplist/2bd18521192d3454473703b3daa265b2/playlist.m3u8"
 
 # ========================
