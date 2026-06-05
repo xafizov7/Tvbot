@@ -10,7 +10,8 @@ from telegram.ext import (
 # ========================
 # SOZLAMALAR
 # ========================
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # <-- Tokeningizni shu yerga qo'ying
+import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 M3U_URL = "http://f6f5887552dc.mylistbest.net/playlists/uplist/2bd18521192d3454473703b3daa265b2/playlist.m3u8"
 
 # ========================
